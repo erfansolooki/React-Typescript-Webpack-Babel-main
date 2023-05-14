@@ -2,6 +2,8 @@ import { useLayoutEffect, useRef, useState } from 'react'
 import styles from './style.module.css'
 import * as RiIcons from 'react-icons/ri'
 import { gsap } from 'gsap'
+import * as React from 'react'
+import ControlledAccordions from '../accordion/view'
 
 export const Drawer = () => {
   const [show, setShow] = useState<boolean>(false)
@@ -34,8 +36,9 @@ export const Drawer = () => {
       </button>
       <div ref={menuRef} className={styles['container']}>
         <button className={styles['close-btn']} onClick={handleHide}>
-          <RiIcons.RiCloseLine size={18} />
+          <RiIcons.RiCloseLine size={20} />
         </button>
+        <ControlledAccordions />
       </div>
     </>
   )
