@@ -38,7 +38,9 @@ export const Drawer = () => {
         <button className={styles['close-btn']} onClick={handleHide}>
           <RiIcons.RiCloseLine size={20} />
         </button>
-        <ControlledAccordions />
+        <div className={styles['accordion']}>
+          <ControlledAccordions />
+        </div>
       </div>
     </>
   )

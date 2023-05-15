@@ -24,3 +24,8 @@
   top: 10px;
   cursor: pointer;
 }
+
+.accordion {
+  display: flex;
+  justify-content: center;
+}
