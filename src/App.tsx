@@ -1,10 +1,10 @@
 import './App.css'
-import { Drawer } from './components/drawer/view'
+import { Header } from './components/header'
 
 const App = () => {
   return (
     <div className="App">
-      <Drawer />
+      <Header />
     </div>
   )
 }

@@ -13,7 +13,6 @@
   height: 100vh;
   background: #faf9f5;
   position: absolute;
-  position: relative;
 }
 
 .close-btn {
@@ -23,9 +22,4 @@
   right: 10px;
   top: 10px;
   cursor: pointer;
-}
-
-.accordion {
-  display: flex;
-  justify-content: center;
 }
