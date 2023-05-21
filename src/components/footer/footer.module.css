@@ -1,4 +1,48 @@
 .container {
   display: flex;
   justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: url('./icons/Device=Mobile.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 1rem 0;
+}
+
+@media (min-width: 600px) {
+  .container {
+    background: url('./icons/Footer.png') no-repeat center;
+    background-size: cover;
+  }
+}
+
+.list-title {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin-bottom: 6px;
+}
+
+.social {
+  margin-top: 12px;
+}
+
+.social svg {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social svg:hover {
+  scale: 1.1;
+}
+
+.social svg:nth-child(2) {
+  margin: 0 0.75rem;
+}
+
+.easy-access li,
+.chains-list li {
+  list-style: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
 }
