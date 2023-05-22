@@ -1,3 +1,7 @@
+:root {
+  --white: #fff;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
@@ -42,7 +46,14 @@
 .easy-access li,
 .chains-list li {
   list-style: none;
-  color: #fff;
+  color: var(--white);
   font-size: 12px;
   font-weight: 300;
+}
+
+.form-title {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin-bottom: 6px;
+  color: var(--white);
 }
